@@ -23,6 +23,24 @@ Writing test cases during development is essential for maintaining code quality 
 - **Assertion:** Verifies the result matches the expected outcome.
 - **Teardown (optional):** Cleans up after the test if needed.
 
+### Test case structure
+**Here’s a comprehensive structure for documenting test cases:**
+
+| Field  | Description |
+| ------------- | ------------- |
+| Test Case ID  | Unique identifier (e.g., TC001, TC002).  |
+| Title  | Brief description of the test (e.g., Verify login).  |
+| Description  | Detailed explanation of the test's purpose. |
+| Preconditions  | Any setup needed before running the test.  |
+| Test Steps  | Step-by-step instructions for executing the test.  |
+| Test Data  | Specific data required (e.g., user credentials).  |
+| Expected Result  | Expected outcome if the test passes.  |
+| Actual Result  | Record of what happens when the test is run.  |
+| Status  | Pass/Fail status.  |
+| Comments  | Additional observations or notes.  |
+| Tested By  | Name of the tester.  |
+| Date Executed  | The date the test was executed.  |
+
 ###  4. Write Unit Tests
 - Focus on testing small, isolated pieces of code (e.g., functions or components).
 - Ensure that each unit test covers a specific scenario and has clear expectations.
